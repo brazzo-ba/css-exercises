@@ -20,8 +20,24 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 12px;
+  display: flex;
+  gap: 8px;
 }
 
+.container-one {
+  display: flex;
+  font-weight: bold;
+  font-size: 21px;
+}
+.container-one button {
+  margin-left: auto;
+}
+
+.modal div .modal-containter-primary {
+  display: flex;
+  gap: 8px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -32,7 +48,13 @@ body {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
+  margin-right: 0;
+  flex-shrink: 0;
+}
+
+.container-two {
+  max-width: 420px;
 }
 
 .close-button {
